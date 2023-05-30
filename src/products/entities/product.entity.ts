@@ -105,7 +105,7 @@ export class Product {
     if (!this.slug) {
       this.slug = this.title;
     }
-    console.log(this.slug);
+
     this.slug = this.slug
       .toLowerCase()
       .replaceAll(' ', '_')
