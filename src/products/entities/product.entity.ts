@@ -105,9 +105,10 @@ export class Product {
     if (!this.slug) {
       this.slug = this.title;
     }
-    this.slug = this.slug
-      .toLowerCase()
-      .replaceAll(' ', '_')
-      .replaceAll("'", '');
+    console.log(this.slug);
+    // this.slug = this.slug
+    //   .toLowerCase()
+    //   .replaceAll(' ', '_')
+    //   .replaceAll("'", '');
   }
 }
