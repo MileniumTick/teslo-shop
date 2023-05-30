@@ -23,3 +23,7 @@
    ```text
    http://localhost:3000/api/seed
    ```
+
+8. Produccion en render
+
+   pnpm i -P; pnpm -g install @nestjs/cli; pnpm build
