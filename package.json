@@ -9,6 +9,7 @@
     "node": "20.x"
   },
   "scripts": {
+    "preinstall": "pnpm add -g nest",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
