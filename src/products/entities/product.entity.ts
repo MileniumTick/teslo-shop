@@ -106,9 +106,9 @@ export class Product {
       this.slug = this.title;
     }
     console.log(this.slug);
-    // this.slug = this.slug
-    //   .toLowerCase()
-    //   .replaceAll(' ', '_')
-    //   .replaceAll("'", '');
+    this.slug = this.slug
+      .toLowerCase()
+      .replaceAll(' ', '_')
+      .replaceAll("'", '');
   }
 }
