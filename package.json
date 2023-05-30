@@ -2,12 +2,9 @@
   "name": "teslo-shop",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Josue Chavarria M <josuechavarria98@gmail.com>",
   "private": true,
   "license": "UNLICENSED",
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -90,5 +87,7 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/MileniumTick/teslo-shop.git"
 }
