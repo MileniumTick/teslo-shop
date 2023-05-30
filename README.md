@@ -26,4 +26,4 @@
 
 8. Produccion en render
 
-   pnpm i -P; pnpm -g install @nestjs/cli; pnpm build
+   pnpm i; pnpm build
